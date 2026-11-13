@@ -42,7 +42,7 @@ To the maximum extent permitted by applicable law, third-party service providers
 
 ## 8. Privacy and termination
 
-For information on permitted data uses, storage, retention, and deletion, see the [Privacy Policy](https://github.com/wjlevan1/oura-api-legal/blob/main/docs/privacy.md). Revoking authorization ends the application's permission to retrieve new Oura data and triggers the handling of previously retrieved data described in the Privacy Policy.
+For information on permitted data uses, storage, retention, and deletion, see the [Privacy Policy](https://oura.levanlabs.com/privacy/). Revoking authorization ends the application's permission to retrieve new Oura data and triggers the handling of previously retrieved data described in the Privacy Policy.
 
 ## 9. Contact and updates
 
