@@ -9,15 +9,15 @@ Public-facing legal notices for a personal, noncommercial Oura API V2 integratio
 
 These GitHub file links are publicly readable now. They can be supplied as public policy URLs for the Oura developer application.
 
-## Optional GitHub Pages site
+## Public GitHub Pages site
 
-The `docs/` folder also contains a Jekyll-compatible site with an index page and friendly policy URLs:
+The `docs/` folder is configured as a Jekyll-compatible site with an index page and friendly policy URLs:
 
-- [Legal notices](https://wjlevan1.github.io/oura-api-legal/)
-- [Privacy Policy](https://wjlevan1.github.io/oura-api-legal/privacy/)
-- [Terms of Service](https://wjlevan1.github.io/oura-api-legal/terms/)
+- [Legal notices](https://oura.levanlabs.com/)
+- [Privacy Policy](https://oura.levanlabs.com/privacy/)
+- [Terms of Service](https://oura.levanlabs.com/terms/)
 
-To publish it on GitHub Free, open **Settings → Pages** in this **public** repository. Select **Deploy from a branch**, choose `main` and `/docs`, then save. The Pages links above will become available after GitHub publishes the site.
+GitHub Pages is configured to deploy from the `main` branch's `/docs` folder. The custom domain is set in `docs/CNAME`, with DNS managed separately. HTTPS is available after GitHub finishes certificate provisioning.
 
 ## Scope and changes
 
