@@ -52,4 +52,4 @@ For privacy questions or requests, contact the operator through the support cont
 
 This policy may change if the integration's functionality or data handling changes. Any updated policy will be published here with a revised effective date.
 
-**Related documents:** [Terms of Service](https://wjlevan1.github.io/oura-api-legal/terms/) · [Oura API and MCP Agreement](https://cloud.ouraring.com/legal/api-agreement)
+**Related documents:** [Terms of Service](https://oura.levanlabs.com/terms/) · [Oura API and MCP Agreement](https://cloud.ouraring.com/legal/api-agreement)
