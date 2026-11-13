@@ -10,8 +10,8 @@ This site provides the public-facing legal notices for a **private, noncommercia
 
 ## Documents
 
-- [Privacy Policy](https://wjlevan1.github.io/oura-api-legal/privacy/) — What Oura data may be accessed, how it is used and stored, and how access and deletion are handled.
-- [Terms of Service](https://wjlevan1.github.io/oura-api-legal/terms/) — Intended use, authorization requirements, disclaimers, and limitations.
+- [Privacy Policy](https://oura.levanlabs.com/privacy/) — What Oura data may be accessed, how it is used and stored, and how access and deletion are handled.
+- [Terms of Service](https://oura.levanlabs.com/terms/) — Intended use, authorization requirements, disclaimers, and limitations.
 
 This website does not contain or display private Oura records, OAuth tokens, or API credentials.
 
