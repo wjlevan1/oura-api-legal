@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#f5f8f7">
+  <meta name="description" content="{% if page.url == '/' %}Privacy policy and terms for the Personal Oura ETL integration by Levan Labs.{% else %}{{ page.title | escape }} for the Personal Oura ETL integration by Levan Labs.{% endif %}">
+  <title>{% if page.url == '/' %}Personal Oura ETL · Levan Labs{% else %}{{ page.title | escape }} · Levan Labs{% endif %}</title>
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="stylesheet" href="{{ '/assets/site.css' | relative_url }}">
+</head>
+<body class="{% if page.url == '/' %}page-home{% else %}page-policy{% endif %}">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="{{ '/' | relative_url }}" aria-label="Levan Labs — Oura legal home">
+        <span class="brand-mark" aria-hidden="true"><span></span></span>
+        <span class="brand-type">
+          <span class="brand-name">levan<span>labs</span><span class="brand-period">.</span></span>
+          <span class="brand-caption">PERSONAL INTEGRATIONS</span>
+        </span>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}aria-current="page"{% endif %}>Overview</a>
+        <a href="{{ '/privacy/' | relative_url }}" {% if page.url == '/privacy/' %}aria-current="page"{% endif %}>Privacy</a>
+        <a href="{{ '/terms/' | relative_url }}" {% if page.url == '/terms/' %}aria-current="page"{% endif %}>Terms</a>
+      </nav>
+    </div>
+  </header>
+
+  {% if page.url == '/' %}
+  <main id="main-content" class="home-main">
+    {{ content }}
+  </main>
+  {% else %}
+  <div class="document-outer">
+    <div class="shell">
+      <div class="document-head">
+        <a class="back-link" href="{{ '/' | relative_url }}"><span aria-hidden="true">←</span> All legal documents</a>
+        <span class="document-type"><span class="live-dot" aria-hidden="true"></span> Public policy</span>
+      </div>
+      <div class="document-grid">
+        <aside class="document-rail" aria-label="Policy navigation">
+          <div class="rail-card">
+            <p class="rail-heading">LEGAL CENTER</p>
+            <a href="{{ '/privacy/' | relative_url }}" {% if page.url == '/privacy/' %}aria-current="page"{% endif %}>
+              <span class="rail-icon" aria-hidden="true">01</span> Privacy policy
+            </a>
+            <a href="{{ '/terms/' | relative_url }}" {% if page.url == '/terms/' %}aria-current="page"{% endif %}>
+              <span class="rail-icon" aria-hidden="true">02</span> Terms of service
+            </a>
+          </div>
+          <div class="rail-note">
+            <span class="mini-orbit" aria-hidden="true"></span>
+            <strong>Built for personal use.</strong>
+            <p>Clear information about a private, single-user Oura integration.</p>
+          </div>
+        </aside>
+        <main id="main-content" class="document-paper">
+          <article class="legal-article">
+            {{ content }}
+          </article>
+          <div class="document-next">
+            <span>Continue reading</span>
+            {% if page.url == '/privacy/' %}
+            <a href="{{ '/terms/' | relative_url }}">Terms of service <span aria-hidden="true">↗</span></a>
+            {% else %}
+            <a href="{{ '/privacy/' | relative_url }}">Privacy policy <span aria-hidden="true">↗</span></a>
+            {% endif %}
+          </div>
+        </main>
+      </div>
+    </div>
+  </div>
+  {% endif %}
+
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <div class="footer-identity">
+        <span class="footer-mark" aria-hidden="true">◌</span>
+        <div>
+          <strong>Levan Labs <span class="footer-divider">/</span> Personal Oura ETL</strong>
+          <p>Independent personal integration. Not affiliated with Oura.</p>
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="{{ '/privacy/' | relative_url }}">Privacy</a>
+        <a href="{{ '/terms/' | relative_url }}">Terms</a>
+        <a href="https://github.com/wjlevan1/oura-api-legal" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
